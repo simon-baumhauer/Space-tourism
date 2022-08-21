@@ -1,0 +1,22 @@
+* {
+  color: white;
+}
+
+p {
+  width: 500px;
+}
+
+.front-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+:host {
+  display: block;
+  left: 0;
+  overflow: hidden;
+  height: 100vh; // takes parent width
+  max-height: 100vh;
+}
