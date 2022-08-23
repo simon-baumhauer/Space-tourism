@@ -1,7 +1,3 @@
-* {
-  color: white;
-}
-
 p {
   width: 500px;
 }
@@ -13,10 +9,10 @@ p {
   height: 100%;
 }
 
-:host {
-  display: block;
-  left: 0;
-  overflow: hidden;
-  height: 100vh; // takes parent width
-  max-height: 100vh;
-}
+// :host {
+//   display: block;
+//   left: 0;
+//   overflow: hidden;
+//   height: 100vh; // takes parent width
+//   max-height: 100vh;
+// }

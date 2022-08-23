@@ -1,4 +1,8 @@
-<nav>
-  <a href="#">00 Home </a><a href="#">01 Destination</a><a href="#">02 Crew</a>
-  <a href="#">03 Technology</a>
-</nav>
+<ul>
+  <a [routerLink]="'/'">00 Home</a>
+  <a [routerLink]="'/crew'">01 Destination</a>
+  <a [routerLink]="'/technology'">02 Crew</a>
+  <a [routerLink]="'/destination'">03 Technology</a>
+</ul>
+
+<router-outlet></router-outlet>

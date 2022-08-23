@@ -14,13 +14,10 @@ import { TechnologyComponent } from './technology/technology.component';
     HomeComponent,
     DestinationComponent,
     CrewComponent,
-    TechnologyComponent
+    TechnologyComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
